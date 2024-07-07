@@ -11,10 +11,10 @@ function DoughnutChart({ accounts }: DoughnutChartProps) {
         {
             label: 'Banks',
             data: [1250, 2500, 3750],
-            backgroundColor: ['#0747b6', '#2265d8', '#2265d8']
+            backgroundColor: ['#2f91fa', '#ffa500', '#0747b6']
         }
       ],
-      labels: ['Bank 1', 'Bank 2', 'Bank 3'] 
+      labels: ['Atlantic', 'BFA', 'Standard'] 
     }
 
   return (
